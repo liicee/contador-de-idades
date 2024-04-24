@@ -1,0 +1,13 @@
+print(" Ola, bem vindo ao contador de idades")
+n= int (input(" Insira aqui sua idade:   "))
+
+if n<=13:
+	print("criança")
+elif n<=13 or n <=17:
+	print("adolesente")
+elif n>=18 and n<=60:
+	print("adulto")
+elif n>= 60 and n<100:
+	print("idoso")
+else:
+	print("nesse caso voce esta morto")
